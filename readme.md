@@ -6,7 +6,7 @@ This is a collection of recipes for the Go language. It aims to distill the know
 
 # Where do the recipes come from?
 
-Some of the recipes have their origins in threads on the Go Nuts mailing list [go-nuts](https://groups.google.com/forum/#!forum/golang-nuts). Others are distilled from existing open source code or the Go source code.
+Some of the recipes have their origins in threads on the Go Nuts mailing list [go-nuts](https://groups.google.com/forum/#!forum/golang-nuts). Others are distilled from existing open source code, the Go source code and sources such as the [Go Wiki](http://code.google.com/p/go-wiki/).
 
 # Can I reuse the recipes?
 
