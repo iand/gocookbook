@@ -22,5 +22,6 @@ but this is inefficient since it wastes cpu time and cannot be pre-empted by the
 
 [Go Language Specification: Select statements](http://golang.org/ref/spec#Select_statements)
 
-
+----
+[no rights reserved](http://creativecommons.org/publicdomain/zero/1.0/)
 
