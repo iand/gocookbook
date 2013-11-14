@@ -4,7 +4,7 @@
 
 This is a collection of recipes for the Go language. It aims to distill the knowledge of the Go community into simple and clear examples of best practice. 
 
-# Where does the information come from?
+# Where do the recipes come from?
 
 Some of the recipes have their origins in threads on the Go Nuts mailing list (go-nuts)[https://groups.google.com/forum/#!forum/golang-nuts]. Others are distilled from existing open source code or the Go source code.
 
