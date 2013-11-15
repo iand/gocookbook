@@ -14,7 +14,7 @@ Use tuple assignment
 
 ## Discussion
 
-Go support assigning to a list of variables. When assigning a list of variables to another list the process is split into two steps. In the first step any expressions such as slice indexing or pointer indirections are evaluated in the usual order of precedence. Then the assignments are carried out in left to right order.
+Go supports assigning to a list of variables. When assigning a list of variables to another list the process is split into two steps. In the first step any expressions such as slice indexing or pointer indirections are evaluated in the usual order of precedence. Then the assignments are carried out in left to right order.
 
 This two step process means that the same technique can be used to exchange values in a slice, for example:
 
