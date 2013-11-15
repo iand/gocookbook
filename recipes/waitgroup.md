@@ -18,7 +18,7 @@ go secondLongRunningFunction(&wg)
 wg.Wait()
 ```
 
-Your long running function will look like this:
+Your long running functions will look like this:
 
 ```Go
 func longFirstRunningFunction(wg *sync.WaitGroup) {
@@ -32,6 +32,8 @@ func longFirstRunningFunction(wg *sync.WaitGroup) {
 
 ## Discussion
 A WaitGroup is designed to synchronise a group of goroutines. It maintains a counter that is added to by the Add() method (which can also subtract by supplying a negative number). The Done() method decrements the counter by one. When the counter falls to zero then all goroutines blocked on calls to Wait() are released. In this recipe only the main goroutine is blocking waiting for its workers to finish but the same WaitGroup could be used in multiple goroutines to synchronise their execution, each calling Wait() at the appropriate time.
+
+In the recipe, the call to Done() is placed as a defer statement to ensure that it is called as soon as the goroutine completes.
 
 You should call Add() before you start your goroutine otherwise there is a chance that the call to Wait() will block on too few goroutines.
 
