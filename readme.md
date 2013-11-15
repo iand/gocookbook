@@ -8,6 +8,11 @@ This is a collection of recipes for the Go language. It aims to distill the know
 
 Some of the recipes have their origins in threads on the Go Nuts mailing list [go-nuts](https://groups.google.com/forum/#!forum/golang-nuts). Others are distilled from existing open source code, the Go source code and sources such as the [Go Wiki](http://code.google.com/p/go-wiki/).
 
+# There seems to be no organisation...
+
+At the moment, while there are very few recipes, I am just leaving the recipes unorganised. When there are enough I will start grouping and tagging them and provide an index into the cookbook. At that point I may add the necessary config to make this content publishable using a system like Jekyll (or [Hastie](https://github.com/mkaz/hastie))
+
+
 # Can I reuse the recipes?
 
 Yes. All content in this Go Cookbook is made available via the [CC0 public domain license](http://creativecommons.org/publicdomain/zero/1.0/). See [`LICENSE`](LICENSE)
