@@ -6,11 +6,12 @@ You want to exchange two variables without creating an intermediate value.
 ## Solution
 Use tuple assignment
 
+```Go
     a := 5
     b := 12
 
     a, b = b, a
-
+```
 
 ## Discussion
 
@@ -18,11 +19,14 @@ Go supports assigning to a list of variables. When assigning a list of variables
 
 This two step process means that the same technique can be used to exchange values in a slice, for example:
 
+```Go
     s := []int{5,12}
     s[0], s[1] = s[1], s[0]
+```
 
 Or the value of two pointers:
 
+```Go
 	var a = new(int)
 	var b = new(int)
 
@@ -30,6 +34,7 @@ Or the value of two pointers:
 	*b = 12
 
 	*b, *a = *a, *b
+```
 
 ## See Also
 
