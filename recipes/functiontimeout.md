@@ -4,17 +4,18 @@
 You want to limit the time you wait for a function to finish.
 
 ## Solution
-
 Wrap the function in a goroutine and use select with a timer to wait for the response.
 
-    r := make(chan int, 1)
-    go func() { r <- longRunningFunction() }()
-    select {
-    case response := <-r:
-        // The function completed in time
-    case <-time.After(5 * time.Second):
-        // The function took too long
-    }
+```Go
+r := make(chan int, 1)
+go func() { r <- longRunningFunction() }()
+select {
+case response := <-r:
+    // The function completed in time
+case <-time.After(5 * time.Second):
+    // The function took too long
+}
+```
 
 ## Discussion
 
