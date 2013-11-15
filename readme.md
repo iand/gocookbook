@@ -15,7 +15,7 @@ Yes. All content in this Go Cookbook is made available via the [CC0 public domai
  
 # How can I contribute?
 
-You can edit a recipe or contribute a new one bu submitting a pull request. Please limit each pull request to a single recipe so it's easy to manage and discuss. Feel free to add yourself to the [`CREDITS`](CREDITS) file if you wish. Don't add yourself to the [`AUTHORS`](AUTHORS) file. If your contribution is deemed substantial enough then one of the existing authors will add you.
+You can edit a recipe or contribute a new one by submitting a pull request. Please limit each pull request to a single recipe so it's easy to manage and discuss. Feel free to add yourself to the [`CREDITS`](CREDITS) file if you wish. Don't add yourself to the [`AUTHORS`](AUTHORS) file. If your contribution is deemed substantial enough then one of the existing authors will add you.
 
 Do note that in order for any non-trivial changes to be merged (as a rule of thumb, additions larger than about 5 lines), an explicit Public Domain Dedication needs to be on record from you. Please include a copy of the statement found in the [`WAIVER`](WAIVER) file with your pull request.
 
