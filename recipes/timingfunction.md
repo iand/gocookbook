@@ -30,7 +30,7 @@ func someFunctionToTime() {
 
 ## Discussion
 
-These handy functions do their magic by using Go's defer keyword.  Remember that in Go, when a function is called with the defer statement, Go will make sure to execute the function 
+These handy functions do their magic by using Go's defer keyword.  Remember that in Go, when a function is called with the defer statement, Go will make sure to execute the function upon return of the surrounding function.  Also remember that when you defer a function, its arguments are evaluated not when it is called but rather when it is add to the defer list.
 
 ## See Also
 
