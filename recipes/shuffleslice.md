@@ -22,6 +22,15 @@ This recipe uses the Fisher–Yates shuffle algorithm to perform the randomisati
 
 The shuffle function operates on the slice passed in as an argument. Newcomers to Go often think that they need to pass in a pointer to a slice but this is not necessary because a slice is simply a small struct that points to an underlying array. Operations on the slice affect the underlying array via the embedded pointer in the slice.
 
+Note that, due to Go's typing rules, shuffling other types of slices will require dedicated shuffle functions. Here's the int version of the shuffle function:
+
+func shuffleInt(a []int) {
+	for i := int32(len(a) - 1); i >= 0; i-- {
+		j := rand.Int31n(i + 1)
+		a[i], a[j] = a[j], a[i]
+	}
+}
+
 
 ## See Also
 
