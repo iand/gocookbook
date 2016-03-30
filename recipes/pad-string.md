@@ -1,4 +1,4 @@
-# 2.11 Pad a string to a fixed length
+# Pad a string to a fixed length
 
 ## Problem
 

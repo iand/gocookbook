@@ -1,4 +1,4 @@
-# 2.4 Align text in columns
+# Align text in columns
 
 ## Problem
 

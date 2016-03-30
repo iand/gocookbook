@@ -1,4 +1,4 @@
-# 2.9 Compare strings case insensitively
+# Compare strings case insensitively
 
 ## Problem
 

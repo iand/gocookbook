@@ -1,4 +1,4 @@
-# 2.18 Comments in HTML template:
+# Comments in HTML template:
 
 # Problem
 

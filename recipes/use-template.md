@@ -1,4 +1,4 @@
-# 2.14 Producing templated output
+# Producing templated output
 
 ## Problem
 

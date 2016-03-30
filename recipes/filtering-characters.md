@@ -1,4 +1,4 @@
-# 2.6 Stripping unwanted characters from strings
+# Stripping unwanted characters from strings
 
 ## Problem
 

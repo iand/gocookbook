@@ -1,4 +1,4 @@
-# 2.5 Trimming blanks from end of strings
+# Trimming blanks from end of strings
 
 ## Problem
 

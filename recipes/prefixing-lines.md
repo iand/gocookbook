@@ -1,4 +1,4 @@
-# 2.7 Prefix each line of a multi-line string
+# Prefix each line of a multi-line string
 
 # Problem
 

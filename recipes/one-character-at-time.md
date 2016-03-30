@@ -1,4 +1,4 @@
-# 2.1 Processing a String One Character at a Time
+# Processing a String One Character at a Time
 
 ## Problem
 

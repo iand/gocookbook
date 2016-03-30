@@ -1,4 +1,4 @@
-# 2.2 Converting text to and from UTF-8
+# Converting text to and from UTF-8
 
 ## Problem
 

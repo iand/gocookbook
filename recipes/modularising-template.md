@@ -1,4 +1,4 @@
-# 2.16 Modularising a large template
+# Modularising a large template
 
 # Problem
 

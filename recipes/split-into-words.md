@@ -1,4 +1,4 @@
-# 2.10 Split a string into words
+# Split a string into words
 
 ## Problem
 

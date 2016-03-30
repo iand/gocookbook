@@ -1,4 +1,4 @@
-# 2.13 Substituting variables in strings
+# Substituting variables in strings
 
 ## Problem
 

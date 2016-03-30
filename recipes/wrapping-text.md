@@ -1,4 +1,4 @@
-# 2.8 Reformatting paragraphs to fixed column width
+# Reformatting paragraphs to fixed column width
 
 ## Problem
 

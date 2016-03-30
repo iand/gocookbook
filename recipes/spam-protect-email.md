@@ -1,4 +1,4 @@
-# 2.17 Spam-protecting email addresses in templates
+# Spam-protecting email addresses in templates
 
 ## Problem
 

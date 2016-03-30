@@ -1,4 +1,4 @@
-# 2.12 Efficiently concatenating strings
+# Efficiently concatenating strings
 
 ## Problem
 

@@ -1,4 +1,4 @@
-# 2.3 Print a comma separated slice of values
+# Print a comma separated slice of values
 
 ## Problem
 
