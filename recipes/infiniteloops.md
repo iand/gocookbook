@@ -1,30 +1,25 @@
 # Infinite Loops
 
 ## Problem
-You need to loop forever, without doing any work.
+You need to loop forever.
 
 ## Solution
 
-Use an empty select block.
+Use the short form of the for statement.
 
 ```Go
-select {}
+for {
+	// wait for some work to arrive
+	x := <- work
+	doWork(x)
+}
 ```
 
 ## Discussion
 
-Empty infinte loops are often used to provide blocking behaviour for part or all of an application. You may be tempted to use an infinite for loop such as:
+Infinite loops occur quite frequently in Go due to its emphasis on concurrent programming. It's usual for a goroutine to start and block in an infinite loop waiting to receive or send on its channels. This idiom is so common that Go provides very simple syntax for it, simply a for statement with no further arguments.
 
-```Go
-for {}
-```
-
-but this is inefficient since it wastes cpu time and cannot be pre-empted by the garbage collector. A select with zero cases is optimised by the compiler into a simple blocking statement.
-
-
-## See Also
-
-[Go Language Specification: Select statements](http://golang.org/ref/spec#Select_statements)
+Like any other for loop a `break` statement will break out and the `continue` statement will skip any following instructions and continue from the start of the loop.
 
 ----
 [no rights reserved](http://creativecommons.org/publicdomain/zero/1.0/)
