@@ -13,9 +13,8 @@ Use a channel to distribute work to a limited number of goroutines.
 // Represents an item to be worked on, use a struct to hold more information
 type workitem string
 
-
 // Worker performs the actual work
-func worker(wg *sync.WaitGroup, work chan string) {
+func worker(wg *sync.WaitGroup, work chan workitem) {
 	defer wg.Done()
 	for item := range work {
 		// ... do work ...
@@ -29,12 +28,12 @@ func processItems(items []workitem) {
 
 	for i := 0; i < 10; i++ {
 		wg.Add(1)
-		go worker(&wg, in)
+		go worker(&wg, work)
 	}
 
 	// Feed the workers with work
 	for _, item := range items {
-	    work <- item
+		work <- item
 	}
 
 	close(work)
